@@ -54,8 +54,8 @@ colors:
 
   bright:
     black:   '#89898C'
-    red:     '#7A8F68'
-    green:   '#7A8F68'
+    red:     '#A9FAAC'
+    green:   '#A9FAAC'
     yellow:  '#376A65'
     blue:    '#343D41'
     magenta: '#82AAFF'
