@@ -1,0 +1,69 @@
+#!/bin/sh
+#
+# ~/aliasrc
+
+
+#Pacman
+alias update="sudo pacman -Syyu"
+alias install="sudo pacman -S"
+alias rns="sudo pacman -Rns $(pacman -Qtdq)"
+alias rsc="sudo pacman -Rsc"   #delete the whole package with system files
+alias q="exit"
+
+#MakePKG
+alias mp="makepkg -si "
+
+#GitHub
+alias g="git "
+alias gadd="git add "
+alias gclone="git clone "
+alias gremote="git remote add origin "
+alias gpush="git push -u origin master "
+
+#hardware info
+alias hw="hwinfo --short"
+alias dm="sudo dmidecode -t 2"
+
+#Thunar
+alias st="sudo thunar "   #thunar as root
+alias sn="sudo nano "
+
+#xprop
+alias xprop="~ > pkgfile xev"
+
+#new fonts
+alias fonts='sudo fc-cache -fv'
+
+#Nvidia-settings
+alias ns="sudo nvidia-settings"
+
+#list all packages
+alias lp="pacman -Qqe"   #list all pacman packages
+alias lpn="pacman -Qqe | wc -l"   #list all pacman packages as number
+alias lpt="pacman -Qqe > packages.txt"   #make .txt file of all pacman packages
+alias lpi="sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort packages.txt))"   #install all pacman packages
+
+#chmod +x
+alias ch="sudo chmod +x "
+
+#Delete [Important - use carefully]
+alias delete="sudo rm -rf "
+
+#list
+alias ls='ls --color'
+alias la='ls -a'
+alias ll='ls -la'
+alias l='ls'
+alias l.="ls -A | egrep '^\.'"
+
+#use all cores
+alias 000="sh ~/.bin/main/000*"
+
+#gpg
+#verify signature for isos
+alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
+#receive the key of a developer
+alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
+
+#download specific repo links [not the whole repo]
+alias gitdir="python -m gitdir "

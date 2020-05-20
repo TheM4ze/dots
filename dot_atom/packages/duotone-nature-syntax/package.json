@@ -1,0 +1,58 @@
+{
+  "_from": "https://www.atom.io/api/packages/duotone-nature-syntax/versions/0.2.0/tarball",
+  "_id": "duotone-nature-syntax@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-5FDKz8qkhqFV/lRXGZ8eUNf59s5TL/osNgatQVrVY0JuPR0GbPOVHyy2zd4hdu5lPWqIk1+9O1JBvgtdfN7FGg==",
+  "_location": "/duotone-nature-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/duotone-nature-syntax/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/duotone-nature-syntax/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/duotone-nature-syntax/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/duotone-nature-syntax/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/duotone-nature-syntax/versions/0.2.0/tarball",
+  "_shasum": "5514de5b34c8fa973b177562a3341aa6f984d2fc",
+  "_spec": "https://www.atom.io/api/packages/duotone-nature-syntax/versions/0.2.0/tarball",
+  "_where": "/tmp/apm-install-dir-2020325-1392-8de1fh.blwsh",
+  "bugs": {
+    "url": "https://github.com/gmpetpet/duotone-nature-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Master template for DuoTone syntax themes",
+  "engines": {
+    "atom": ">1.0.0"
+  },
+  "homepage": "https://github.com/gmpetpet/duotone-nature-syntax#readme",
+  "keywords": [
+    "duotone",
+    "syntax",
+    "dark",
+    "blue",
+    "green"
+  ],
+  "license": "MIT",
+  "name": "duotone-nature-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmpetpet/duotone-nature-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.2.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

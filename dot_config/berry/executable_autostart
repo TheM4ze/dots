@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# Autostart
+$HOME/.config/rofi/config.rasi
+$HOME/.config/polybar/launch.sh
+$HOME/.fehbg
+
+# Set decoration geometry
+berryc border_width       5
+berryc inner_border_width 3
+berryc title_height       30
+berryc edge_gap           60 10 10 10
+
+
+# Set decoration colors
+berryc focus_color         141417
+berryc unfocus_color       141417
+berryc inner_focus_color   5F655A
+berryc inner_unfocus_color 2E2F31
+berryc text_focus_color    eeeeee
+berryc text_unfocus_color  eeeeee
+
+# Other options
+berryc smart_place "true"
+berryc draw_text   "true"
+berryc edge_lock   "true"
+berryc set_font    "Dina-10"
+
+# Workspace names
+berryc name_desktop 0 "1"
+berryc name_desktop 1 "2"
+berryc name_desktop 2 "3"
+berryc name_desktop 3 "4"
+berryc name_desktop 4 "5"
+berryc name_desktop 5 "6"
+berryc name_desktop 6 "7"
+berryc name_desktop 7 "8"
+berryc name_desktop 8 "9"
+berryc name_desktop 9 "10"
+
+sxhkd -c $HOME/.config/berry/sxhkdrc &
+
+firefox &
+dunst &

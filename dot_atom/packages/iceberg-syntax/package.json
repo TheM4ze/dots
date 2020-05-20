@@ -1,0 +1,57 @@
+{
+  "_from": "https://www.atom.io/api/packages/iceberg-syntax/versions/0.2.3/tarball",
+  "_id": "iceberg-syntax@0.2.3",
+  "_inBundle": false,
+  "_integrity": "sha512-kV0eZ6lrmbHbWYEcanZASUyDF0KRAh201Yx8G3Zb4Tv1/hZc+55HqJHAhYLJGTLPkW8/PI8k7qgj34PRPPw1TA==",
+  "_location": "/iceberg-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/iceberg-syntax/versions/0.2.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/iceberg-syntax/versions/0.2.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/iceberg-syntax/versions/0.2.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/iceberg-syntax/versions/0.2.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/iceberg-syntax/versions/0.2.3/tarball",
+  "_shasum": "ecfea461a794f833be07d069073e89fcaec08e8c",
+  "_spec": "https://www.atom.io/api/packages/iceberg-syntax/versions/0.2.3/tarball",
+  "_where": "/tmp/apm-install-dir-2020324-115480-47vvxt.hnt0l",
+  "bugs": {
+    "url": "https://github.com/cocopon/atom-iceberg-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A dark blue syntax theme for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/cocopon/atom-iceberg-syntax#readme",
+  "keywords": [
+    "blue",
+    "dark",
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "iceberg-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cocopon/atom-iceberg-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.2.3",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

@@ -1,0 +1,111 @@
+
+@import "traits.less";
+
+// Pane blur.
+atom-pane:not(.active) {
+  .tab-bar .tab.active {
+    color: #82AAFF;
+  }
+}
+
+// Correct padding applied by no-title-bar
+.platform-darwin atom-workspace atom-panel-container.left:empty + atom-workspace-axis.vertical .tab-bar {
+  padding-left: 0 !important;
+}
+
+// Tabs
+// -------------------
+// Displays selectable tabs above the editor.
+// Overrides: atom/tabs
+
+.tab-bar {
+    background-color: @tab-bar-background-color;
+    margin: 15px;
+
+    .title;
+
+    .tab {
+        color: @text-color-subtle;
+        height: @tab-height;
+        line-height: @tab-height;
+        font-size: @font-size;
+        margin-top: -1px;
+        max-width: 200px;
+
+        text-transform: uppercase;
+        font-size: 11px;
+
+        transition: all 150ms ease-out;
+
+        .title {
+            // text-align: center;
+
+            .icon {
+                &::before {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        &.active {
+          color:  #82AAFF;
+          background-color: #141417;
+
+
+            .title {
+                padding: 0;
+            }
+        }
+        // Modified Icon (the blue circle) -------------------
+
+        &.modified {
+            .title {
+
+            }
+        }
+
+        &.modified:not(:hover) .close-icon {
+            border: 2px solid @emphasis-color;
+            opacity: 1;
+            top: 50%;
+            right: @component-padding + 4px; // 4px -> half of icon size
+            margin-top: -3px;
+        }
+
+        &.modified:hover .close-icon {
+            color: currentColor;
+        }
+        // Close Icon (the X) -------------------
+
+        .close-icon {
+            opacity: 100;
+            &::before {
+                text-align: center;
+            }
+
+            &:hover {
+                color: #F07178;
+            }
+        }
+
+        &.active .close-icon:hover {
+            color: #F07178;
+        }
+        // Dragging -------------------
+        // Styles get applied while dragging a tab
+        &.is-dragging {
+            background: darken(@tab-background-color, 10%);
+            opacity: 0.5;
+
+            & .close-icon {
+                visibility: hidden;
+            }
+        }
+
+        &:hover {
+            .close-icon {
+                opacity: 1;
+            }
+        }
+    }
+}

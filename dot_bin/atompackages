@@ -1,0 +1,21 @@
+echo "Installing packages..."
+  apm install
+  apm install atom-ide-ui #atom-ide-ui
+  apm install build-coffee
+  apm install language-qml
+  apm install autocomplete-clang
+  apm install busy-signal
+  apm install file-icons
+  apm install ide-powershell
+  apm install intentions
+  apm install language-ini
+  apm install language-powershell
+  apm install linter-gcc2
+  apm install linter-ui-default
+  apm install minimap
+  apm install php-twig
+  apm install platformio-ide
+  apm install seti-icons
+  apm install terminal-tab-service
+  apm install tool-bar
+  apm install sass-code-kit

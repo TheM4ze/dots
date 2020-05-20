@@ -1,0 +1,39 @@
+"*":
+  autosave:
+    enabled: true
+  "autoupdate-packages":
+    lastUpdateTimestamp: 1589943485428
+  core:
+    autoHideMenuBar: true
+    closeEmptyWindows: false
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "atom-clock"
+    ]
+    restorePreviousWindowsOnStart: "always"
+    telemetryConsent: "no"
+    themes: [
+      "bliss-ui"
+      "bliss-syntax"
+    ]
+  editor:
+    fontFamily: "JetBrains Mono"
+    fontSize: 15
+  "exception-reporting":
+    userId: "282aa745-a87d-4069-8745-0c758e08ee9c"
+  "linter-ui-default":
+    showPanel: true
+  minimap:
+    absoluteMode: true
+    moveCursorOnMinimapClick: true
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "highlight-selected": false
+      "highlight-selectedDecorationsZIndex": 0
+      selection: true
+      selectionDecorationsZIndex: 0
+  "save-session":
+    dataSaveFolder: "/home/babyjesus/.atom/packages/save-session/projects"
+  welcome:
+    showOnStartup: false

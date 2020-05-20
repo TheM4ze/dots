@@ -1,0 +1,51 @@
+{
+  "squares": [
+    { "name": "Work", "links": [
+        { "name": "Github", "url": "https://github.com" },
+        { "name": "Notion", "url": "https://www.notion.so/Linux-9fc1cb630ac342b08eee1738adf7cb31" },
+        { "name": "Google Drive", "url": "https://drive.google.com/drive/u/0/my-drive" },
+        { "name": "Google Docs", "url": "https://docs.google.com/document/u/0/" }
+      ]
+    },
+    { "name": "Social", "links": [
+        { "name": "Reddit", "url": "https://reddit.com" },
+        { "name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" },
+        { "name": "ArchLabs", "url": "https://forum.archlabslinux.com/" },
+        { "name": "Github", "url": "https://github.com" }
+      ]
+    },
+    { "name": "Mail", "links": [
+        {"name": "Gmail", "url": "https://mail.google.com/mail/u/0/#inbox" },
+        {"name": "Outlook", "url": "https://outlook.live.com/mail/0/inbox" },
+        {"name": "ProtonMail", "url": "https://beta.protonmail.com/inbox" }
+      ]
+    },
+    { "name": "Gaming", "links": [
+        { "name": "Steam", "url": "https://imgur.com/" },
+        { "name": "ProtonDB", "url": "https://www.flightradar24.com/51.5,-0.12/8" }
+        { "name": "EpicGames", "url": "https://imgur.com/" },
+      ]
+    },
+    { "name": "Media", "links": [
+        { "name": "Spotify", "url": "https://open.spotify.com/" },
+        { "name": "Youtube", "url": "https://youtube.com" }
+      ]
+    },
+    { "name": "Tools", "links": [
+        { "name": "Imgur", "url": "https://imgur.com/" },
+        { "name": "FlightRadar24", "url": "https://www.flightradar24.com/51.5,-0.12/8" }
+      ]
+    },
+  ],
+  "searchEngine":"DuckDuckGo",
+  "user": "Babyjesus",
+  "disableMessage": false,
+  "disableDate": false,
+  "disableSearchBar": false,
+  "disable24Hour": false,
+  "disableWeather": true,
+  "weatherConf": {
+    "location": "Toronto",
+    "unit": "cel"
+  }
+}

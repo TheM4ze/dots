@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/babyjesus/.config/wpg/wallpapers/scott-ogle.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#20292d",
+        "foreground": "#828595",
+        "cursor": "#828595"
+    },
+    "colors": {
+        "color0": "#20292d",
+        "color1": "#5C758D",
+        "color2": "#b6bd88",
+        "color3": "#78B4C8",
+        "color4": "#9BADA1",
+        "color5": "#87ADC6",
+        "color6": "#78aae8",
+        "color7": "#828595",
+        "color8": "#8e9b9e",
+        "color9": "#9d94c2",
+        "color10": "#d8a57d",
+        "color11": "#78aae8",
+        "color12": "#343d41",
+        "color13": "#d8a57d",
+        "color14": "#9d94c2",
+        "color15": "#828595"
+    }
+}

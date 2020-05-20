@@ -1,0 +1,78 @@
+.atom-clock {
+  color: #82AAFF;
+}
+
+
+.icon {
+    color: #65737E;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+atom-text-editor::shadow {
+    .wrap-guide {
+        visibility: hidden;
+    }
+}
+
+
+
+
+atom-text-editor .highlights {
+  // Box
+  .highlight-selected .region {
+    border-color: #77AEE8;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+  }
+  // Background (set in settings)
+  .highlight-selected.background .region {
+    background-color: #77AEE8;
+  }
+  // Light theme box (set in settings)
+.highlight-selected.light-theme .region {    border-color: #f71010;
+  }
+}
+// If you have the Scroll Marker package installed https://atom.io/packages/scroll-marker
+// These are the colours that will be shown in the scroller
+.highlight-selected-marker-layer.scroll-marker-layer {
+  .scroll-marker {
+    background-color: #f71010
+  }
+}
+
+.highlight-selected-selected-marker-layer.scroll-marker-layer {
+  .scroll-marker {
+    background-color: #f71010
+  }
+}
+
+.minimap-selection .region {
+  background: #82AAFF;
+}
+
+.minimap-selection .cursor-line {
+  background: #D8A57D;
+}
+
+.minimap-selection .region-outline {
+  background: #82AAFF;
+}
+
+atom-text-editor atom-text-editor-minimap {
+  background: #15171F;
+}
+
+atom-text-editor atom-text-editor-minimap .minimap-scroll-indicator {
+  background-color: green;
+}
+
+atom-text-editor, html {
+  atom-text-editor-minimap canvas:first-child {
+    background: #141417;
+  }
+}

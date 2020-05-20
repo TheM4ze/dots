@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/babyjesus/.config/wpg/wallpapers/IMG_0251-1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#141417",
+        "foreground": "#89898c",
+        "cursor": "#89898c"
+    },
+    "colors": {
+        "color0": "#141417",
+        "color1": "#677875",
+        "color2": "#4e828a",
+        "color3": "#5A5F53",
+        "color4": "#867966",
+        "color5": "#5E7272",
+        "color6": "#85613A",
+        "color7": "#89898c",
+        "color8": "#8e9b9e",
+        "color9": "#d8a57d",
+        "color10": "#7a8f68",
+        "color11": "#376a65",
+        "color12": "#343d41",
+        "color13": "#7a8f68",
+        "color14": "#d8a57d",
+        "color15": "#89898c"
+    }
+}

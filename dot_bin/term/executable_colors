@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+
+name=$USER
+host=$(hostname)
+battery="/sys/class/power_supply/BAT?"
+distro="Arch Linux"
+kernel=$(uname -r)
+pkgs=$(pacman -Qqs | wc -l)
+wm=$(awk '/exec/ { printf $2 }' ~/.xinitrc)
+font=$(xrdb -query | awk -F ":" '/*.font/ { printf $3 }')
+
+
+
+#█▓▒░ colors
+printf "\n"
+i=0
+while [ $i -le 6 ]; do
+	printf "\033[$((i + 41))m\033[$((i + 30))m█▓▒░"
+	i=$((i + 1))
+done
+printf "\033[37m█\033[0m▒░\n\n"
+
+#█▓▒░ greets
+#printf " \033[0m  Hello \033[36m$name\033[0m, I'm \033[34m$host\n\n\033[0m"

@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/babyjesus/.config/wpg/wallpapers/IMG_0251-1.jpg' 

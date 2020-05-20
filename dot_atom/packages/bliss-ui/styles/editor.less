@@ -1,0 +1,63 @@
+.preview-pane.no-results .no-results-overlay {
+  li {
+    display: none;
+  }
+
+  .preview-header {
+    position: relative;
+    bottom: 7px;
+  }
+}
+
+.background-message::before {
+  position: absolute;
+  display: block;
+  content: '';
+  font-size: 100px;
+  font-weight: lighter;
+  font-family: 'Earth Orbiter Title', 'Open Sans', sans-serif;
+  background-size: 10%;
+  height: 100%;
+  width: 100%;
+  top: 35%;
+  left: 0;
+}
+
+.background-message .message {
+  display: none;
+}
+
+// Panes.
+atom-pane {
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+// Mini Editor
+// -------------------
+// Mini Editors are the "text inputs" used in find+replace or in the settings.
+atom-text-editor[mini] {
+    padding-left: 5px;
+    font-size: 1rem;
+    color: @text-color;
+    background-color: @input-background-color;
+    border-bottom: 1px solid @base-border-color;
+
+    &.is-focused {
+      .cursor {
+        display: block;
+      }
+    }
+
+    .placeholder-text {
+      color: @text-color-subtle;
+    }
+
+    .selection .region {
+      background-color: @background-color-selected;
+    }
+
+    .cursor {
+      display: none;
+    }
+}

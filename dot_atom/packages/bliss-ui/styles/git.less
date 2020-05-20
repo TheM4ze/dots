@@ -1,0 +1,69 @@
+
+// Git
+// -------------------
+
+// Used to color git status
+
+.status          { color: @text-color; }
+.status-added    { color: @bliss-green; } // green
+.status-ignored  { color: @bliss-gray; }  // faded
+.status-modified { color: @bliss-yellow; } // orange
+.status-removed  { color: @bliss-red; }   // red
+.status-renamed  { color: @bliss-blue; }    // blue
+
+atom-text-editor .gutter .line-number.git-line-removed, .gutter .line-number.git-line-removed {
+  border-left: 2px solid #bf616a;
+  padding-left: calc(0.5em - 2px);
+}
+
+atom-text-editor .gutter .line-number.git-line-removed:before, .gutter .line-number.git-line-removed:before {
+  content: none;
+}
+
+.icon:before {
+  color: #65737E;
+}
+
+.github-StagingView-list {
+  .icon.icon-diff-removed:before {
+    color: @bliss-red;
+  }
+
+  .icon.icon-diff-modified:before {
+    color: @bliss-yellow;
+  }
+
+  .icon.icon-diff-added:before {
+    color: @bliss-green;
+  }
+}
+
+.github-FilePatchView-header .btn-group .btn.icon-code {
+  margin-right: 10px;
+}
+
+// Enable Git highlighting in tree view
+.list-group,
+.list-tree {
+  li:not(.list-nested-item),
+  li.list-nested-item > .list-item {
+    color: @text-color;
+  }
+
+  .generate-list-item-status-color(@color, @status) {
+    li:not(.list-nested-item).status-@{status},
+    li.list-nested-item.status-@{status} > .list-item {
+      color: @color;
+    }
+    li:not(.list-nested-item).selected.status-@{status},
+    li.list-nested-item.selected.status-@{status} > .list-item {
+      color: @color;
+    }
+  }
+
+  .generate-list-item-status-color(@bliss-green, added);
+  .generate-list-item-status-color(@bliss-gray, ignored);
+  .generate-list-item-status-color(@bliss-yellow, modified);
+  .generate-list-item-status-color(@bliss-red, removed);
+  .generate-list-item-status-color(@bliss-orange, renamed);
+}
